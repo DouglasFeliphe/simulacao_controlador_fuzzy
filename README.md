@@ -30,9 +30,9 @@ Peso Muito Pesado
  <li>	SE peso é Muito Pesado e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Máximo</li>
  <li>	SE peso é Muito Pesado e sujeira Extra Sujo, ENTÃO quantidade de detergente é Máximo</li>
 </ul>
-
+<br>
 <b>Universo De Discurso</b>
-Os valores ‘Peso’, ‘Sujeira’ e ‘Quantidade de Detergente’ podem variar de 0 á 100
+<p>Os valores ‘Peso’, ‘Sujeira’ e ‘Quantidade de Detergente’ podem variar de 0 á 100
 
 
 
