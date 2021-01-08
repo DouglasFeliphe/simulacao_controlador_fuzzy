@@ -1,6 +1,6 @@
 # simulacao_controlador_fuzzy
 
- Regras Fuzzy
+<b>Regras Fuzzy
 
 Peso Muito Leve
 <ul>
@@ -31,12 +31,12 @@ Peso Muito Pesado
  <li>	SE peso é Muito Pesado e sujeira Extra Sujo, ENTÃO quantidade de detergente é Máximo</li>
 </ul>
 
-Universo De Discurso
+<b>Universo De Discurso
 Os valores ‘Peso’, ‘Sujeira’ e ‘Quantidade de Detergente’ podem variar de 0 á 100
 
 
 
-Funções de Pertinência
+<b>Funções de Pertinência
 
 •	Peso
 1.	Muito Leve – [0,20] Rampa
@@ -58,7 +58,7 @@ Funções de Pertinência
 5.	Máximo – [80, 100]  Trapezoidal
 
 
-Simulação
+<b>Simulação
 
 Valores CRISPS de entrada: 
 <ul>	
