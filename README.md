@@ -3,26 +3,33 @@
  Regras Fuzzy
 
 Peso Muito Leve
-•	SE peso é muito leve e sujeira é Quase Limpo, ENTÃO quantidade de detergente é muito pouco.
-•	SE peso é Muito Leve e sujeira é Sujo, ENTÃO quantidade de detergente é Pouco.
-•	SE peso é Muito Leve e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Pouco.
-•	SE peso é Muito Leve e sujeira é Extra Sujo, ENTÃO quantidade de detergente é Moderado.
+<ul>
+<li>	SE peso é muito leve e sujeira é Quase Limpo, ENTÃO quantidade de detergente é muito pouco.</li>
+<li>	SE peso é Muito Leve e sujeira é Sujo, ENTÃO quantidade de detergente é Pouco.</li>
+<li>	SE peso é Muito Leve e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Pouco.</li>
+<li> SE peso é Muito Leve e sujeira é Extra Sujo, ENTÃO quantidade de detergente é Moderado.</li>
+</ul>
 Peso Leve
-•	SE peso é Leve e sujeira é Quase Limpo, ENTÃO quantidade de detergente é Pouco.
-•	SE peso é Leve e sujeira é Sujo, ENTÃO quantidade de detergente é Pouco.
-•	SE peso é Leve e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Moderado.
-•	SE peso é Leve e sujeira é Extra Sujo, ENTÃO quantidade de detergente é Exagerado.
+<ul>
+<li> SE peso é Leve e sujeira é Quase Limpo, ENTÃO quantidade de detergente é Pouco.</li>
+<li>	SE peso é Leve e sujeira é Sujo, ENTÃO quantidade de detergente é Pouco.</li>
+<li>	SE peso é Leve e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Moderado.</li>
+<li>	SE peso é Leve e sujeira é Extra Sujo, ENTÃO quantidade de detergente é Exagerado.</li>
+</ul>
 Peso Pesado
- •	SE peso é Pesado e sujeira é Quase Limpo, ENTÃO quantidade de detergente é Moderado.
- •	SE peso é Pesado e sujeira é Sujo, ENTÃO quantidade de detergente é Moderado.
- •	SE peso é Pesado e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Exagerado.
- •	SE peso é Pesado e sujeira é Extra Sujo, ENTÃO quantidade de detergente é Exagerado
+<ul>
+ <li>	SE peso é Pesado e sujeira é Quase Limpo, ENTÃO quantidade de detergente é Moderado.</li>
+ <li>	SE peso é Pesado e sujeira é Sujo, ENTÃO quantidade de detergente é Moderado.</li>
+ <li>	SE peso é Pesado e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Exagerado.</li>
+ <li> SE peso é Pesado e sujeira é Extra Sujo, ENTÃO quantidade de detergente é Exagerado</li>
+</ul>
 Peso Muito Pesado
- •	SE peso é Muito Pesado e sujeira é Quase Limpo, ENTÃO quantidade de detergente é Moderado
- •	SE peso é Muito Pesado e sujeira é Sujo, ENTÃO quantidade de detergente é Exagerado
- •	SE peso é Muito Pesado e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Máximo
- •	SE peso é Muito Pesado e sujeira Extra Sujo, ENTÃO quantidade de detergente é Máximo
-
+<ul>
+ <li>	SE peso é Muito Pesado e sujeira é Quase Limpo, ENTÃO quantidade de detergente é Moderado</li>
+ <li>	SE peso é Muito Pesado e sujeira é Sujo, ENTÃO quantidade de detergente é Exagerado</li>
+ <li>	SE peso é Muito Pesado e sujeira é Muito Sujo, ENTÃO quantidade de detergente é Máximo</li>
+ <li>	SE peso é Muito Pesado e sujeira Extra Sujo, ENTÃO quantidade de detergente é Máximo</li>
+</ul>
 
 Universo De Discurso
 Os valores ‘Peso’, ‘Sujeira’ e ‘Quantidade de Detergente’ podem variar de 0 á 100
