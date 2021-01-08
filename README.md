@@ -59,8 +59,13 @@ Funções de Pertinência
 
 
 Simulação
+
 Valores CRISPS de entrada: 
-•	Peso = 45
-•	Sujeira = 19
+<ul>	
+ <li>Peso = 45
+ <li>	Sujeira = 19
+</ul>  
 Valores de saída esperados:
-•	Quantidade de Detergente = 42 (Moderado)
+<ul>
+<li>	Quantidade de Detergente = 42 (Moderado)</li>
+</ul> 
